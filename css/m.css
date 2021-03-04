@@ -1,0 +1,124 @@
+
+@font-face {
+    font-family: "TT Lakes";
+    font-style: normal;
+    font-weight: 500;
+    src: 
+         url("../font/TTLakes-Medium.woff") format("woff"),
+         url("../font/TTLakes-Medium.woff2") format("woff2");
+}
+
+.header {
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.header__adaptive_s {
+    flex: 1 1 100px;
+}
+
+.header__link-position-adaptive-left-s {
+    align-self: flex-start;
+}
+
+.header__link-position-adaptive-right-s {
+    align-self: flex-end; 
+}
+
+.header :nth-child(3) {
+    margin-right: 100px;
+}
+
+.header :nth-child(4) {
+    margin-left: 100px;
+}
+
+.nav__ul {
+    width: 1120px;
+}
+  
+.section {
+    justify-content: space-around;
+}
+
+.section__link {
+    margin-left: -5%;
+}
+
+.section__div-box {
+    flex: 0 1 530px;;
+}
+
+.section__p+p {
+    display: block;
+}
+
+.span__section {
+    margin: 0;
+    margin-left: 10%;
+}
+
+.section__div-background-image {
+    flex: 2 0 360px;
+    margin-right: 10px;
+    width: 531px;
+    height: 307px;
+    background-image: url(../img/CPS_b.jpg);
+    background-repeat: no-repeat;
+    border-radius: 6px;
+}
+
+.hidden {
+    display: block ;
+}
+
+.nav {
+    margin-bottom: 20px;
+}
+
+.header {
+    display: none;
+}
+
+.section__p.section__p-hidden-m {
+    display: none;
+}
+
+.div__main {
+    width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 20px;
+}
+
+.div__main-position-left {
+    justify-content: flex-start;
+}
+
+.div__main-position-right {
+    justify-content: flex-end;
+}
+
+.main__button {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 24px;
+    border:none;
+    background-color: #f8f8f8;
+}
+
+.button {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.link__button {
+    align-self: center;
+    margin-right: 10px;
+}
+
+
+
+
+
+
