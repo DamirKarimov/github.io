@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "TT Lakes";
+    font-style: normal;
+    font-weight: 500;
+    src: 
+         url("../font/TTLakes-Medium.woff") format("woff"),
+         url("../font/TTLakes-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family:"TT Lakes Condensed";
+    font-style: normal;
+    font-weight: bold;
+    src: 
+         url("../font/TTLakesCondensed-Bold.woff") format("woff"),
+         url("../font/TTLakesCondensed-Bold.woff2") format("woff2");
+}
+
+html {
+    box-sizing: border-box;
+    font-family: "TT Lakes" ;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.header, .main, .footer {
+    width: 100%;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: black; 
+    height: 26px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2;
+    text-align: left;
+    vertical-align: middle;
+    margin-left: 20px;
+    transition: all .2s ease-in-out;
+}
+
+ul {
+    position: relative;
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+li {
+    margin: 0;
+    height: 32px;
+}
+
+.main-box {
+    width: 768px;
+    height: 1024px;
+    margin: 0 auto;;
+}
+
+.main-box__contain-box {
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid black;
+    width: 320px;
+    height:1024px;
+}
+
+.header__div {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.header__svg {
+  display: flex; 
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  flex: 1 1 ;
+  align-self: center;
+}
+
+.main__item {
+    margin: 7% 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.main__item a:hover {
+    color: #7E7E82;  
+}
+
+li:hover {
+    background-image: url(../img/line.png);
+    background-repeat: no-repeat;   
+}
+
+.footer{
+    display: flex;
+    flex-flow: column nowrap;
+    align-self: flex-end;
+    height: 300px;
+    padding-left: 5%;
+}
+
+.footer__div-icon{
+    margin-top: 5%;
+    height: 10%;
+}
+
+.footer__div-icon svg {
+    margin-right: 10px;
+}
+
+.contant__span{
+    display: inline-block;
+}
+
+.contant__span_mail{
+    margin: 5% 0;
+}
+
+.contant__span_tel-number {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.contant__span-lang{
+    margin-top: 20%;
+}
+
+.contant__span-lang:hover {
+    color: #7E7E82;
+}
